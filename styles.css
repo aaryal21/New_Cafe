@@ -37,11 +37,11 @@ header p {
 }
 
 .image-container {
-    max-width: 40%;  /* Limit the image to half the container's width */
+    max-width: 50%;  /* Limit the image to half the container's width */
 }
 
 .image-container img {
-    width: 40%;  /* Make the image responsive */
+    width: 80%;  /* Make the image responsive */
     height: auto;  /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners to the image */
 }
