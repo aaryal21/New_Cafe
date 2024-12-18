@@ -8,40 +8,46 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    display: flex;  /* Use flexbox to align items horizontally */
+    max-width: 1200px;  /* Optional: Set the max width for the entire container */
     margin: 100px auto;
     padding: 20px;
+    justify-content: space-between;  /* Space between the content and image box */
+}
+
+.content-box {
+    flex: 1;  /* Content box takes the remaining space */
+    margin-right: 20px;  /* Add space between the content box and image box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     background-color: #ffffff;
+    padding: 20px;
 }
 
 header {
-    display: flex;
-    flex-direction: row; /* Align items side by side */
-    justify-content: space-between; /* Space between items */
-    align-items: center; /* Vertically center items */
     margin-bottom: 20px;
 }
 
 header h1 {
     font-size: 2em;
     color: #6b4f4f;
-    margin: 0; /* Remove any default margin */
+    margin: 0;  /* Remove any default margin */
 }
 
 header p {
     font-size: 1.2em;
     margin-top: 10px;
-    margin-left: 20px; /* Add space between text and image */
 }
 
-.image-container {
-    max-width: 50%;  /* Limit the image to half the container's width */
+.image-box {
+    flex: 0 0 45%;  /* Set the width of the image box to 45% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
 }
 
-.image-container img {
-    width: 80%;  /* Make the image responsive */
+.image-box img {
+    width: 100%;  /* Make the image fill the container */
     height: auto;  /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners to the image */
 }
