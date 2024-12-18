@@ -60,10 +60,3 @@ form button:hover {
     display: none;
 }
 
-
-    /* Add background image */ {
-    background-image: url('C:\Users\a.aryal.SCI\Desktop\UOP\New_Cafe\images'); 
-    background-size: cover;  
-    background-position: center;  
-    background-attachment: fixed;  
-}
