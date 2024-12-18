@@ -8,20 +8,24 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Le Petit Café</h1>
-            <p>We’re brewing something special for you. Stay tuned!</p>
-        </header>
-        <main>
-            <form id="email-form">
-                <input type="email" id="email" placeholder="Enter your email" required>
-                <button type="submit">Notify Me</button>
-                <p id="error-message"></p>
-            </form>
-            <div class="image-container">
-                <img src="images/FrenchPress.jpg">
-            </div>
-        </main>
+        <div class="content-box">
+            <header>
+                <h1>Le Petit Café</h1>
+                <p>We’re brewing something special for you. Stay tuned!</p>
+            </header>
+            <main>
+                <form id="email-form">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <button type="submit">Notify Me</button>
+                    <p id="error-message"></p>
+                </form>
+            </main>
+        </div>
+
+        <!-- Separate Box for the Image -->
+        <div class="image-box">
+            <img src="images/FrenchPress.jpg" alt="French press coffee">
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
