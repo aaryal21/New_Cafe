@@ -9,7 +9,7 @@ body {
 
 .container {
     display: flex;  /* Use flexbox to align items horizontally */
-    max-width: 1200px;  /* Optional: Set the max width for the entire container */
+    max-width: 1000px;  /* Optional: Set the max width for the entire container */
     margin: 100px auto;
     padding: 20px;
     justify-content: space-between;  /* Space between the content and image box */
@@ -47,7 +47,7 @@ header p {
 }
 
 .image-box img {
-    width: 100%;  /* Make the image fill the container */
+    width: 70%;  /* Make the image fill the container */
     height: auto;  /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners to the image */
 }
