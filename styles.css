@@ -5,57 +5,10 @@ body {
     text-align: center;
     background-color: #fefefe;
     color: #4a4a4a;
-}
 
-.container {
-    max-width: 600px;
-    margin: 100px auto;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background-color: #ffffff;
-}
-
-header h1 {
-    font-size: 2em;
-    color: #6b4f4f;
-}
-
-header p {
-    font-size: 1.2em;
-    margin-top: 10px;
-}
-
-form {
-    margin-top: 20px;
-}
-
-form input {
-    padding: 10px;
-    font-size: 1em;
-    width: 70%;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form button {
-    padding: 10px 15px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #6b4f4f;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #563e3e;
-}
-
-#error-message {
-    color: red;
-    font-size: 0.9em;
-    margin-top: 10px;
-    display: none;
+    /* Add background image */
+    background-image: url('images/FrenchPress.jpg'); 
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed;  
 }
