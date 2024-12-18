@@ -16,14 +16,34 @@ body {
     background-color: #ffffff;
 }
 
+header {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically center items */
+    margin-bottom: 20px;
+}
+
 header h1 {
     font-size: 2em;
     color: #6b4f4f;
+    margin: 0; /* Remove any default margin */
 }
 
 header p {
     font-size: 1.2em;
     margin-top: 10px;
+    margin-left: 20px; /* Add space between text and image */
+}
+
+.image-container {
+    max-width: 50%;  /* Limit the image to half the container's width */
+}
+
+.image-container img {
+    width: 100%;  /* Make the image responsive */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
 }
 
 form {
@@ -59,4 +79,3 @@ form button:hover {
     margin-top: 10px;
     display: none;
 }
-
